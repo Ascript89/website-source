@@ -1,0 +1,45 @@
+@media only screen and (max-width: 800px) {
+    .nav-btn {display: none;}
+    .menu {
+        background-color: black;
+        padding: 25px;
+        text-align: center;
+        line-height: 60px;
+    }
+    .menu-btn {display: initial !important;}
+    .menu a {background: none;}
+    .home-bio {
+        font-size: 1.75em !important;
+        animation: bioanim 3s ease-in-out infinite !important;
+    }
+    .home-bio:hover {padding-left: 80px !important;}
+    h1 {font-size: 60px !important;}
+    h2 {font-size: 50px !important;}
+    h3 {font-size: 40px !important;}
+    .menu-btn {height: 30px; float: right;}
+    .cd-right {margin: 0 !important;}
+    .home-card {margin-top: 20px !important; margin-left: 30px !important;}
+    .contact-banner {display: none !important;}
+    .contact-banner-mob {
+        background-color: rgb(30, 30, 30);
+        display: flexbox !important;
+        border-radius: 10px;
+        margin: 0px 90px 30px 90px;
+        padding: 20px;
+        padding-left: 50px;
+        text-align: center;
+    }
+    .contact-banner-mob a img {
+        height: 70px;
+        margin-right: 20px;
+    }
+    .contact-banner-mob span {
+        font-size: 30px;
+        font-weight: bold;
+        margin-right: 25px;
+    }
+    .subpage-content {padding: 50px !important;}
+    .source-container {display: none !important;}
+    .source-mobile-text {display: initial !important;}
+    .yt-ampere-box {margin-left: -30px !important;}
+}
