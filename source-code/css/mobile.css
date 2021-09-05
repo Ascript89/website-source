@@ -1,4 +1,6 @@
 @media only screen and (max-width: 800px) {
+    body {overflow-x: hidden !important;}
+    nav {top: -1px !important;}
     .nav-btn {display: none;}
     .menu {
         background-color: black;
@@ -6,13 +8,33 @@
         text-align: center;
         line-height: 60px;
     }
+    .menu h1 {margin-top: -10px;margin-bottom: 0;}
     .menu-btn {display: initial !important;}
     .menu a {background: none;}
+    .home-banner {height: 90vh !important;}
     .home-bio {
-        font-size: 1.75em !important;
+        font-size: 3em !important;
         animation: bioanim 3s ease-in-out infinite !important;
     }
     .home-bio:hover {padding-left: 80px !important;}
+    .home-cards-box {padding: 10% !important;}
+    .home-gfx-banner {
+        background-position: top !important;
+        background-image: url('../assets/bg.jpg') !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        padding: 20px !important;
+        font-size: 20px !important;
+        text-align: center;
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+    }
+    .home-gfx-banner div {
+        width: 78% !important;
+        float: none !important;
+    }
+    .home-discord {display: initial !important;}
+    .home-discord .tag {display: none !important;}
     h1 {font-size: 60px !important;}
     h2 {font-size: 50px !important;}
     h3 {font-size: 40px !important;}
@@ -21,25 +43,46 @@
     .home-card {margin-top: 20px !important; margin-left: 30px !important;}
     .contact-banner {display: none !important;}
     .contact-banner-mob {
-        background-color: rgb(30, 30, 30);
+        background-color: #18191c;
         display: flexbox !important;
-        border-radius: 10px;
-        margin: 0px 90px 30px 90px;
-        padding: 20px;
+        border-radius: 15px;
+        margin: 50px 15px -10px 15px;
+        padding: 10px;
         padding-left: 50px;
-        text-align: center;
     }
     .contact-banner-mob a img {
         height: 70px;
-        margin-right: 20px;
+        margin-right: 25px;
     }
     .contact-banner-mob span {
-        font-size: 30px;
         font-weight: bold;
-        margin-right: 25px;
+        font-size: 20px !important;
+        font-style: normal !important;
+        text-transform: uppercase;
+        color: #bbb;
+        text-align: left !important;
+        margin-left: -20px;
     }
     .subpage-content {padding: 50px !important;}
     .source-container {display: none !important;}
     .source-mobile-text {display: initial !important;}
     .yt-ampere-box {margin-left: -30px !important;}
+    .me-icon {
+        float: none !important;
+        height: 100px !important;
+    }
+    .me-paragraph {
+        float: right !important;
+        width: 45vw !important;
+        font-size: 18px;
+    }
+    .gallery-photo {width: 100% !important;}
+    .collapsible {
+        min-width: 340px !important;
+        max-width: 340px !important;
+    }
+    .content {
+        min-width: 304px !important;
+        max-width: 304px !important;
+    }
 }
