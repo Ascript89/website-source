@@ -8,4 +8,4 @@ make sure to credit me somewhere in your website, there's no need it's in big
 neon letters, just in the credits or the footer of the site, it'd help me a lot,
 thanks.
 
-More info? JerosGamer89#2734 at Discord
+Wanna talk? JerosGamer89#2734 at Discord
