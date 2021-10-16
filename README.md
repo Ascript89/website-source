@@ -17,9 +17,9 @@ you use anything from this code repository, as it says in the license terms
 
 ```html
 <p>
-  Some parts of this website have been
-  made by
+  Some parts of this website have been made by
   <a href="https://ascript89.github.io/">JerosGamer89 (aka Ascript89)</a>.
+  
   Licensed under the
   <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0 license.
             <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1">
